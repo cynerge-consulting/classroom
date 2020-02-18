@@ -1,6 +1,6 @@
 language: python
 script:
-  - 'bundle exec rake'
+  - puppet-lint
 branches:
   only:
   - master
