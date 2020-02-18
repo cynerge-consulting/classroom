@@ -1,6 +1,3 @@
-branches:
-  only:
-  - master
 language: ruby
 sudo: false
 bundler_args: --jobs 4 --retry 2 --without packaging documentation
