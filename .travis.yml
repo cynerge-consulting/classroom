@@ -1,4 +1,6 @@
 language: python
+script:
+  - 'bundle exec rake $CHECK'
 branches:
   only:
   - master
